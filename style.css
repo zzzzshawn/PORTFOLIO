@@ -1523,6 +1523,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-content { padding: 25px; }
 
+  .project-img img{
+    object-fit: contain;
+  }
 
 
   /**
