@@ -281,6 +281,9 @@ article.active {
   display:flex;
   justify-items: center;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
 }
 
 .wrap{
