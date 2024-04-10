@@ -284,6 +284,8 @@ article.active {
   flex-direction: column;
   gap: 10px;
   padding: 10px;
+  font-size: 1.7em;
+  width: 7em;
 }
 
 .wrap{
