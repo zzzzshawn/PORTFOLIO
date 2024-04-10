@@ -844,6 +844,7 @@ main {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0.5em;
+  padding: 0.5em;
 }
 
 .resume-link{
