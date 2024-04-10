@@ -264,6 +264,8 @@ article.active {
   display: flex;
   gap: 2em;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-card::before {
@@ -279,6 +281,7 @@ article.active {
   display:flex;
   justify-items: center;
   align-items: center;
+  padding: 5px;
 }
 
 .wrap{
