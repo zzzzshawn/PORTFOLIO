@@ -262,9 +262,9 @@ article.active {
   cursor: pointer;
   z-index: 1;
   display: flex;
-  gap: 1.5em;
+  gap: 2.7em;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 

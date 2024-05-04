@@ -1,688 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shawn Dsilva - Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shawn Dsilva - Portfolio</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./images/my-avatar.jpg" alt="Shawn D'silva" width="80" />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Shawn D'silva">Shawn D'silva</h1>
 
-        <figure class="avatar-box">
-          <img src="./images/my-avatar.jpg" alt="Shawn D'silva" width="80">
-        </figure>
+            <p class="title">Web developer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Shawn D'silva">Shawn D'silva</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Web developer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:shawndsilva.mail@gmail.com" class="contact-link"
+                  >shawndsilva.mail@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+917620935370" class="contact-link"
+                  >+91 7620935370</a
+                >
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-              <a href="mailto:shawndsilva.mail@gmail.com" class="contact-link">shawndsilva.mail@gmail.com</a>
-            </div>
+                <time datetime="1982-06-23">November 25, 2002</time>
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <address>Shiroda, Ponda-Goa</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+          <div class="separator"></div>
 
-              <a href="tel:+917620935370" class="contact-link">+91 7620935370</a>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/zzzzshawn"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/shawn-dsilva-56a118263/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">November 25, 2002</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Shiroda, Ponda-Goa</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/zzzzshawn" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/shawn-dsilva-56a118263/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              I am an undergrad at a leading Information Technology college in
+              Goa, specializing in React.js and Node.js. My focus has been on
+              building powerful multi-tenant applications while also being
+              proficient in JavaScript and API architecture.
+            </p>
 
-        <section class="about-text">
-          <p>
-            I am an undergrad at a leading Information Technology college in Goa, specializing in React.js and
-            Node.js. My focus has been on building powerful multi-tenant applications while also being proficient in
-            JavaScript and API architecture. 
-          </p>
+            <p>
+              I'm known for my ability to create unique MERN applications and
+              prioritize UI/UX design. Additionally, I excel in testing and
+              running software applications to ensure their reliability and
+              performance.
+            </p>
+          </section>
 
-          <p>
-            I'm known for my ability to create unique MERN applications and prioritize
-            UI/UX design. Additionally, I excel in testing and running software applications to ensure their reliability
-            and performance.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
-l̥
-        <section class="service">
+          l̥
+          <section class="service">
+            <h3 class="h3 service-title">What i do</h3>
 
-          <h3 class="h3 service-title">What i do</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h2 class="h2 service-item-title">Web design</h2>
+                </div>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-icon-box">
-                <img src="./images/icon-design.svg" alt="design icon" width="40">
-              </div>
+                <div class="service-content-box">
+                  <h2 class="h2 service-item-title">Web Apps</h2>
+                </div>
+              </li>
 
-              <div class="service-content-box">
-                <h2 class="h2 service-item-title">Web design</h2>
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-            </li>
+                <div class="service-content-box">
+                  <h2 class="h2 service-item-title">Host Web Apps</h2>
+                </div>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
+                <div class="service-icon-box" style="text-align: center">
+                  <svg
+                    width="2.2em"
+                    height="2.2em"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.94 13.5l-1.32 1.32a3.73 3.73 0 0 0-7.24 0L1.06 13.5 0 14.56l1.72 1.72-.22.22V18H0v1.5h1.5v.08c.077.489.214.966.41 1.42L0 22.94 1.06 24l1.65-1.65A4.308 4.308 0 0 0 6 24a4.31 4.31 0 0 0 3.29-1.65L10.94 24 12 22.94 10.09 21c.198-.464.336-.951.41-1.45v-.1H12V18h-1.5v-1.5l-.22-.22L12 14.56l-1.06-1.06zM6 13.5a2.25 2.25 0 0 1 2.25 2.25h-4.5A2.25 2.25 0 0 1 6 13.5zm3 6a3.33 3.33 0 0 1-3 3 3.33 3.33 0 0 1-3-3v-2.25h6v2.25zm14.76-9.9v1.26L13.5 17.37V15.6l8.5-5.37L9 2v9.46a5.07 5.07 0 0 0-1.5-.72V.63L8.64 0l15.12 9.6z"
+                      fill="#c9251a"
+                    />
+                  </svg>
+                </div>
 
-              <div class="service-icon-box">
-                <img src="./images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                <div class="service-content-box">
+                  <h2 class="h2 service-item-title">Debug</h2>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-              <div class="service-content-box">
-                <h2 class="h2 service-item-title">Web Apps</h2>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h2 class="h2 service-item-title">Host Web Apps</h2>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box" style="text-align:center;">
-                <svg width="2.2em" height="2.2em"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M10.94 13.5l-1.32 1.32a3.73 3.73 0 0 0-7.24 0L1.06 13.5 0 14.56l1.72 1.72-.22.22V18H0v1.5h1.5v.08c.077.489.214.966.41 1.42L0 22.94 1.06 24l1.65-1.65A4.308 4.308 0 0 0 6 24a4.31 4.31 0 0 0 3.29-1.65L10.94 24 12 22.94 10.09 21c.198-.464.336-.951.41-1.45v-.1H12V18h-1.5v-1.5l-.22-.22L12 14.56l-1.06-1.06zM6 13.5a2.25 2.25 0 0 1 2.25 2.25h-4.5A2.25 2.25 0 0 1 6 13.5zm3 6a3.33 3.33 0 0 1-3 3 3.33 3.33 0 0 1-3-3v-2.25h6v2.25zm14.76-9.9v1.26L13.5 17.37V15.6l8.5-5.37L9 2v9.46a5.07 5.07 0 0 0-1.5-.72V.63L8.64 0l15.12 9.6z"
-                    fill="#c9251a" />
-                </svg>
-              </div>
-
-              <div class="service-content-box">
-                <h2 class="h2 service-item-title">Debug</h2>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Padre Conceição College of Engineering(PCCE)
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2021 - 2025</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Bachelor of Engineering in Information Technology
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Padre Conceição College of Engineering(PCCE)</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fr. Agnel multipurpose higher secondary school
+                </h4>
 
-              <span>2021 - 2025</span>
+                <span>2018 - 2020</span>
+              </li>
+            </ol>
+          </section>
 
-              <p class="timeline-text">
-                Bachelor of Engineering in Information Technology
-              </p>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Fr. Agnel multipurpose higher secondary school </h4>
-
-              <span>2018 - 2020</span>
-
-
-            </li>
-
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">VanillaKart Internship</h4>
 
-          <ol class="timeline-list">
+                <p class="timeline-text">
+                  Online internship at VanillaKart on Web Development
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">VanillaKart Internship</h4>
-
-              <p class="timeline-text">
-                Online internship at VanillaKart on Web Development
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-
-
-        <section class="skill">
-          <div class="resume-btn ">
-            <h2 class="h2">My skills</h2>
-            <button onclick="window.open('./images/shawndsilva_resume.pdf')" class="resume-link">
-              <span class="">Resume </span>
-              <svg width="2.2em" height="2.2em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M17 17H17.01M17.4 14H18C18.9319 14 19.3978 14 19.7654 14.1522C20.2554 14.3552 20.6448 14.7446 20.8478 15.2346C21 15.6022 21 16.0681 21 17C21 17.9319 21 18.3978 20.8478 18.7654C20.6448 19.2554 20.2554 19.6448 19.7654 19.8478C19.3978 20 18.9319 20 18 20H6C5.06812 20 4.60218 20 4.23463 19.8478C3.74458 19.6448 3.35523 19.2554 3.15224 18.7654C3 18.3978 3 17.9319 3 17C3 16.0681 3 15.6022 3.15224 15.2346C3.35523 14.7446 3.74458 14.3552 4.23463 14.1522C4.60218 14 5.06812 14 6 14H6.6M12 15V4M12 15L9 12M12 15L15 12"
-                  stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </button>
-          </div>
-          <div class=" content-card ">
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-react" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> React</span>
-            </div>
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-nodejs" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> Nodejs</span>
-            </div>
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-npm" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> npm </span>
-            </div>
-            <div class="flex  service-title h3" >
-              <svg width="2.2em" height="2.2em" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-                <g>
+          <section class="skill">
+            <div class="resume-btn">
+              <h2 class="h2">My skills</h2>
+              <button
+                onclick="window.open('./images/shawndsilva_resume.pdf')"
+                class="resume-link"
+              >
+                <span class="">Resume </span>
+                <svg
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
-                    d="M119.616813,0.0688905149 C119.066276,0.118932037 117.314565,0.294077364 115.738025,0.419181169 C79.3775171,3.69690087 45.3192571,23.3131775 23.7481916,53.4631946 C11.7364614,70.2271045 4.05395894,89.2428829 1.15112414,109.384595 C0.12512219,116.415429 0,118.492153 0,128.025062 C0,137.557972 0.12512219,139.634696 1.15112414,146.665529 C8.10791789,194.730411 42.3163245,235.11392 88.7116325,250.076335 C97.0197458,252.753556 105.778299,254.580072 115.738025,255.680985 C119.616813,256.106338 136.383187,256.106338 140.261975,255.680985 C157.453763,253.779407 172.017986,249.525878 186.382014,242.194795 C188.584164,241.068861 189.00958,240.768612 188.709286,240.518404 C188.509091,240.36828 179.124927,227.782837 167.86393,212.570214 L147.393939,184.922273 L121.743891,146.965779 C107.630108,126.098464 96.0187683,109.034305 95.9186706,109.034305 C95.8185728,109.009284 95.7184751,125.873277 95.6684262,146.465363 C95.5933529,182.52028 95.5683284,183.971484 95.1178886,184.82219 C94.4672532,186.048207 93.9667644,186.548623 92.915738,187.099079 C92.114956,187.499411 91.4142717,187.574474 87.6355816,187.574474 L83.3063539,187.574474 L82.1552297,186.848872 C81.4044966,186.373477 80.8539589,185.747958 80.4785924,185.022356 L79.9530792,183.896422 L80.0031281,133.729796 L80.0782014,83.5381493 L80.8539589,82.5623397 C81.25435,82.0369037 82.1051808,81.3613431 82.7057674,81.0360732 C83.7317693,80.535658 84.1321603,80.4856165 88.4613881,80.4856165 C93.5663734,80.4856165 94.4172043,80.6857826 95.7434995,82.1369867 C96.1188661,82.5373189 110.007429,103.454675 126.623656,128.650581 C143.239883,153.846488 165.962072,188.250034 177.122972,205.139048 L197.392766,235.839522 L198.418768,235.163961 C207.502639,229.259062 217.112023,220.852086 224.719453,212.09482 C240.910264,193.504394 251.345455,170.835585 254.848876,146.665529 C255.874878,139.634696 256,137.557972 256,128.025062 C256,118.492153 255.874878,116.415429 254.848876,109.384595 C247.892082,61.3197135 213.683675,20.9362052 167.288368,5.97379012 C159.105376,3.32158945 150.396872,1.49507389 140.637341,0.394160408 C138.234995,0.143952798 121.693842,-0.131275573 119.616813,0.0688905149 L119.616813,0.0688905149 Z M172.017986,77.4831252 C173.219159,78.0836234 174.195112,79.2345784 174.545455,80.435575 C174.74565,81.0861148 174.795699,94.9976579 174.74565,126.348671 L174.670577,171.336 L166.73783,159.17591 L158.780059,147.01582 L158.780059,114.313685 C158.780059,93.1711423 158.880156,81.2862808 159.030303,80.7108033 C159.430694,79.3096407 160.306549,78.2087272 161.507722,77.5581875 C162.533724,77.0327515 162.909091,76.98271 166.837928,76.98271 C170.541544,76.98271 171.19218,77.0327515 172.017986,77.4831252 Z"
-                    fill="rgb(211, 20, 20)">
-                  </path>
-                </g>
-              </svg>
-              <span> Nextjs </span>
+                    d="M17 17H17.01M17.4 14H18C18.9319 14 19.3978 14 19.7654 14.1522C20.2554 14.3552 20.6448 14.7446 20.8478 15.2346C21 15.6022 21 16.0681 21 17C21 17.9319 21 18.3978 20.8478 18.7654C20.6448 19.2554 20.2554 19.6448 19.7654 19.8478C19.3978 20 18.9319 20 18 20H6C5.06812 20 4.60218 20 4.23463 19.8478C3.74458 19.6448 3.35523 19.2554 3.15224 18.7654C3 18.3978 3 17.9319 3 17C3 16.0681 3 15.6022 3.15224 15.2346C3.35523 14.7446 3.74458 14.3552 4.23463 14.1522C4.60218 14 5.06812 14 6 14H6.6M12 15V4M12 15L9 12M12 15L15 12"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
+            <div class="content-card">
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-react"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> React</span>
+              </div>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-nodejs"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> Nodejs</span>
+              </div>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-npm"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> npm </span>
+              </div>
 
-            <div class="flex  service-title h3" >
-              <svg width="2em" height="2em" viewBox="-2.5 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <div class="flex service-title h3">
+                <svg
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 256 256"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid"
+                >
+                  <g>
+                    <path
+                      d="M119.616813,0.0688905149 C119.066276,0.118932037 117.314565,0.294077364 115.738025,0.419181169 C79.3775171,3.69690087 45.3192571,23.3131775 23.7481916,53.4631946 C11.7364614,70.2271045 4.05395894,89.2428829 1.15112414,109.384595 C0.12512219,116.415429 0,118.492153 0,128.025062 C0,137.557972 0.12512219,139.634696 1.15112414,146.665529 C8.10791789,194.730411 42.3163245,235.11392 88.7116325,250.076335 C97.0197458,252.753556 105.778299,254.580072 115.738025,255.680985 C119.616813,256.106338 136.383187,256.106338 140.261975,255.680985 C157.453763,253.779407 172.017986,249.525878 186.382014,242.194795 C188.584164,241.068861 189.00958,240.768612 188.709286,240.518404 C188.509091,240.36828 179.124927,227.782837 167.86393,212.570214 L147.393939,184.922273 L121.743891,146.965779 C107.630108,126.098464 96.0187683,109.034305 95.9186706,109.034305 C95.8185728,109.009284 95.7184751,125.873277 95.6684262,146.465363 C95.5933529,182.52028 95.5683284,183.971484 95.1178886,184.82219 C94.4672532,186.048207 93.9667644,186.548623 92.915738,187.099079 C92.114956,187.499411 91.4142717,187.574474 87.6355816,187.574474 L83.3063539,187.574474 L82.1552297,186.848872 C81.4044966,186.373477 80.8539589,185.747958 80.4785924,185.022356 L79.9530792,183.896422 L80.0031281,133.729796 L80.0782014,83.5381493 L80.8539589,82.5623397 C81.25435,82.0369037 82.1051808,81.3613431 82.7057674,81.0360732 C83.7317693,80.535658 84.1321603,80.4856165 88.4613881,80.4856165 C93.5663734,80.4856165 94.4172043,80.6857826 95.7434995,82.1369867 C96.1188661,82.5373189 110.007429,103.454675 126.623656,128.650581 C143.239883,153.846488 165.962072,188.250034 177.122972,205.139048 L197.392766,235.839522 L198.418768,235.163961 C207.502639,229.259062 217.112023,220.852086 224.719453,212.09482 C240.910264,193.504394 251.345455,170.835585 254.848876,146.665529 C255.874878,139.634696 256,137.557972 256,128.025062 C256,118.492153 255.874878,116.415429 254.848876,109.384595 C247.892082,61.3197135 213.683675,20.9362052 167.288368,5.97379012 C159.105376,3.32158945 150.396872,1.49507389 140.637341,0.394160408 C138.234995,0.143952798 121.693842,-0.131275573 119.616813,0.0688905149 L119.616813,0.0688905149 Z M172.017986,77.4831252 C173.219159,78.0836234 174.195112,79.2345784 174.545455,80.435575 C174.74565,81.0861148 174.795699,94.9976579 174.74565,126.348671 L174.670577,171.336 L166.73783,159.17591 L158.780059,147.01582 L158.780059,114.313685 C158.780059,93.1711423 158.880156,81.2862808 159.030303,80.7108033 C159.430694,79.3096407 160.306549,78.2087272 161.507722,77.5581875 C162.533724,77.0327515 162.909091,76.98271 166.837928,76.98271 C170.541544,76.98271 171.19218,77.0327515 172.017986,77.4831252 Z"
+                      fill="rgb(211, 20, 20)"
+                    ></path>
+                  </g>
+                </svg>
+                <span> Nextjs </span>
+              </div>
 
-                <g>
+              <div class="flex service-title h3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2.2em"
+                  height="2.2em"
+                  fill="none"
+                  class="u-max-width-100-percent"
+                  viewBox="0 0 112 98"
+                >
+                  <path
+                    fill="rgb(211, 20, 20)"
+                    d="M111.1 73.473v24.49H48.87c-18.13 0-33.96-9.849-42.429-24.49A48.683 48.683 0 0 1 0 52.293V45.67a48.52 48.52 0 0 1 1.732-10.048C7.545 15.064 26.448 0 48.871 0c22.422 0 41.323 15.064 47.136 35.623H69.398C65.03 28.922 57.47 24.491 48.872 24.491c-8.599 0-16.16 4.43-20.528 11.132a24.262 24.262 0 0 0-3.042 6.68 24.488 24.488 0 0 0-.921 6.679c0 7.02 2.952 13.348 7.685 17.811a24.39 24.39 0 0 0 16.806 6.68z"
+                  />
+                  <path
+                    fill="rgb(211, 20, 20)"
+                    d="M111.1 42.303v24.49H65.676a24.406 24.406 0 0 0 7.686-17.81c0-2.316-.321-4.556-.922-6.68z"
+                  />
+                </svg>
+                <span> Appwrite </span>
+              </div>
 
+              <div class="flex service-title h3">
+                <svg
+                  width="2em"
+                  height="2em"
+                  viewBox="-2.5 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      fill="rgb(211, 20, 20)"
+                      d="M1.192 16.267c.04 2.065.288 3.982.745 5.75.456 1.767 1.16 3.307 2.115 4.618.953 1.31 2.185 2.343 3.694 3.098 1.51.755 3.357 1.132 5.54 1.132 3.22 0 5.89-.844 8.016-2.532 2.125-1.69 3.446-4.22 3.962-7.597h1.192c-.437 3.575-1.847 6.345-4.23 8.312-2.384 1.966-5.324 2.95-8.82 2.95-2.383.04-4.42-.338-6.107-1.133-1.69-.794-3.07-1.917-4.142-3.367-1.073-1.45-1.867-3.158-2.383-5.124C.258 20.408 0 18.294 0 16.028c0-2.542.377-4.806 1.132-6.792C1.887 7.25 2.88 5.57 4.112 4.2 5.34 2.83 6.77 1.79 8.4 1.074 10.03.358 11.698 0 13.406 0c2.383 0 4.44.457 6.167 1.37 1.728.914 3.138 2.126 4.23 3.635 1.093 1.51 1.887 3.238 2.384 5.184.496 1.945.705 3.97.625 6.077H1.193zm24.43-1.192c0-1.867-.26-3.645-.775-5.333-.516-1.688-1.28-3.168-2.294-4.44-1.013-1.27-2.274-2.273-3.784-3.008-1.51-.735-3.258-1.102-5.244-1.102-1.67 0-3.228.317-4.678.953-1.45.636-2.72 1.56-3.813 2.77-1.092 1.212-1.976 2.672-2.652 4.38-.675 1.708-1.072 3.635-1.19 5.78h24.43z"
+                    />
+                  </g>
+                </svg>
+                <span> Expressjs </span>
+              </div>
 
-                  <path fill="rgb(211, 20, 20)"
-                    d="M1.192 16.267c.04 2.065.288 3.982.745 5.75.456 1.767 1.16 3.307 2.115 4.618.953 1.31 2.185 2.343 3.694 3.098 1.51.755 3.357 1.132 5.54 1.132 3.22 0 5.89-.844 8.016-2.532 2.125-1.69 3.446-4.22 3.962-7.597h1.192c-.437 3.575-1.847 6.345-4.23 8.312-2.384 1.966-5.324 2.95-8.82 2.95-2.383.04-4.42-.338-6.107-1.133-1.69-.794-3.07-1.917-4.142-3.367-1.073-1.45-1.867-3.158-2.383-5.124C.258 20.408 0 18.294 0 16.028c0-2.542.377-4.806 1.132-6.792C1.887 7.25 2.88 5.57 4.112 4.2 5.34 2.83 6.77 1.79 8.4 1.074 10.03.358 11.698 0 13.406 0c2.383 0 4.44.457 6.167 1.37 1.728.914 3.138 2.126 4.23 3.635 1.093 1.51 1.887 3.238 2.384 5.184.496 1.945.705 3.97.625 6.077H1.193zm24.43-1.192c0-1.867-.26-3.645-.775-5.333-.516-1.688-1.28-3.168-2.294-4.44-1.013-1.27-2.274-2.273-3.784-3.008-1.51-.735-3.258-1.102-5.244-1.102-1.67 0-3.228.317-4.678.953-1.45.636-2.72 1.56-3.813 2.77-1.092 1.212-1.976 2.672-2.652 4.38-.675 1.708-1.072 3.635-1.19 5.78h24.43z" />
+              <div class="flex service-title h3">
+                <svg
+                  fill="rgb(211, 20, 20)"
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.821 23.185s0-10.361 0.344-10.36c0.266 0 0.612 13.365 0.612 13.365-0.476-0.056-0.956-2.199-0.956-3.005zM22.489 12.945c-0.919-4.016-2.932-7.469-5.708-10.134l-0.007-0.006c-0.338-0.516-0.647-1.108-0.895-1.732l-0.024-0.068c0.001 0.020 0.001 0.044 0.001 0.068 0 0.565-0.253 1.070-0.652 1.409l-0.003 0.002c-3.574 3.034-5.848 7.505-5.923 12.508l-0 0.013c-0.001 0.062-0.001 0.135-0.001 0.208 0 4.957 2.385 9.357 6.070 12.115l0.039 0.028 0.087 0.063q0.241 1.784 0.412 3.576h0.601c0.166-1.491 0.39-2.796 0.683-4.076l-0.046 0.239c0.396-0.275 0.742-0.56 1.065-0.869l-0.003 0.003c2.801-2.597 4.549-6.297 4.549-10.404 0-0.061-0-0.121-0.001-0.182l0 0.009c-0.003-0.981-0.092-1.94-0.261-2.871l0.015 0.099z"
+                  ></path>
+                </svg>
+                <span> MongoDB </span>
+              </div>
 
-                </g>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-vercel"
+                  style="color: rgb(211, 20, 20); font-size: 2em"
+                ></ion-icon>
+                <span> Vercel </span>
+              </div>
+              <div class="flex service-title h3">
+                <svg
+                  fill="rgb(211, 20, 20)"
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.86 8c-0.224-0.385-0.532-0.724-0.871-0.921l-11.755-6.787c-0.677-0.391-1.787-0.391-2.464 0l-11.755 6.787c-0.677 0.391-1.235 1.353-1.235 2.135v13.573c0 0.391 0.14 0.828 0.364 1.213 0.219 0.385 0.532 0.724 0.871 0.917l11.749 6.791c0.683 0.391 1.787 0.391 2.464 0l11.755-6.791c0.339-0.193 0.647-0.532 0.871-0.917s0.359-0.823 0.359-1.213v-13.573c0.005-0.391-0.135-0.828-0.353-1.213zM16 25.479c-5.229 0-9.479-4.249-9.479-9.479s4.249-9.479 9.479-9.479c3.385 0.005 6.511 1.812 8.208 4.733l-4.104 2.376c-0.849-1.464-2.411-2.365-4.104-2.371-2.615 0-4.74 2.125-4.74 4.74s2.125 4.74 4.74 4.74c1.693-0.005 3.255-0.907 4.104-2.371l4.104 2.376c-1.697 2.921-4.823 4.728-8.208 4.733zM25.479 16.527h-1.052v1.052h-1.057v-1.052h-1.052v-1.053h1.052v-1.052h1.057v1.052h1.052zM29.427 16.527h-1.052v1.052h-1.052v-1.052h-1.052v-1.053h1.052v-1.052h1.052v1.052h1.052z"
+                  />
+                </svg>
+                <span> C++ </span>
+              </div>
 
-              </svg>
-              <span> Expressjs </span>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-javascript"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> JavaScript </span>
+              </div>
+              <div class="flex service-title h3">
+                <svg
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 400 400"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 200V0h400v400H0" fill="rgb(211, 20, 20)" />
+                  <path
+                    d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4l-.3-.1zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1l-.2.2z"
+                    fill="rgb(35, 35, 35)"
+                  />
+                </svg>
+                <span style="margin-left: 0.4em"> TypeScript </span>
+              </div>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-html5"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> HTML </span>
+              </div>
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-css3"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> CSS </span>
+              </div>
+
+              <div class="flex service-title h3">
+                <svg
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 24 24"
+                  fill="rgb(211, 20, 20)"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.98488 2C3.61546 2 2.60217 3.19858 2.64753 4.49844C2.69105 5.74725 2.63451 7.36461 2.22732 8.68359C1.81892 10.0064 1.1282 10.8444 0 10.952V12.1666C1.1282 12.2742 1.81892 13.1122 2.22732 14.4351C2.63451 15.754 2.69105 17.3714 2.64753 18.6202C2.60217 19.9199 3.61546 21.1186 4.98508 21.1186H19.0169C20.3864 21.1186 21.3995 19.9201 21.3541 18.6202C21.3106 17.3714 21.3671 15.754 21.7743 14.4351C22.1829 13.1122 22.8718 12.2742 24 12.1666V10.952C22.8718 10.8444 22.1829 10.0064 21.7743 8.68359C21.3671 7.36481 21.3106 5.74725 21.3541 4.49844C21.3995 3.19878 20.3864 2 19.0169 2H4.98468H4.98488ZM16.2712 13.7687C16.2712 15.5586 14.9361 16.6441 12.7206 16.6441H8.94915C8.84127 16.6441 8.7378 16.6012 8.66152 16.5249C8.58523 16.4486 8.54237 16.3452 8.54237 16.2373V6.88136C8.54237 6.77347 8.58523 6.67001 8.66152 6.59372C8.7378 6.51743 8.84127 6.47458 8.94915 6.47458H12.6991C14.5464 6.47458 15.7588 7.47525 15.7588 9.01166C15.7588 10.09 14.9433 11.0555 13.9041 11.2245V11.2809C15.3187 11.4361 16.2712 12.4156 16.2712 13.7687ZM12.3094 7.76407H10.1589V10.8015H11.9701C13.3702 10.8015 14.1423 10.2377 14.1423 9.2299C14.1423 8.28556 13.4784 7.76407 12.3094 7.76407ZM10.1589 12.0068V15.3542H12.3885C13.8462 15.3542 14.6184 14.7692 14.6184 13.6699C14.6184 12.5704 13.8246 12.0066 12.2947 12.0066H10.1589V12.0068Z"
+                    fill="rgb(211, 20, 20)"
+                  />
+                </svg>
+                <span> Bootstrap </span>
+              </div>
+
+              <div class="flex service-title h3">
+                <svg
+                  fill="rgb(211, 20, 20)"
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Tailwind CSS icon</title>
+                  <path
+                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                  />
+                </svg>
+                <span> Tailwincss </span>
+              </div>
+
+              <div class="flex service-title h3">
+                <ion-icon
+                  name="logo-github"
+                  style="color: rgb(211, 20, 20); font-size: 2.2em"
+                ></ion-icon>
+                <span> Github </span>
+              </div>
+
+              <div class="flex service-title h3">
+                <svg
+                  width="2.2em"
+                  height="2.2em"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>file_type_sql</title>
+                  <path
+                    d="M8.562,15.256A21.159,21.159,0,0,0,16,16.449a21.159,21.159,0,0,0,7.438-1.194c1.864-.727,2.525-1.535,2.525-2V9.7a10.357,10.357,0,0,1-2.084,1.076A22.293,22.293,0,0,1,16,12.078a22.36,22.36,0,0,1-7.879-1.3A10.28,10.28,0,0,1,6.037,9.7v3.55C6.037,13.724,6.7,14.528,8.562,15.256Z"
+                    style="fill: rgb(211, 20, 20)"
+                  />
+                  <path
+                    d="M8.562,21.961a15.611,15.611,0,0,0,2.6.741A24.9,24.9,0,0,0,16,23.155a24.9,24.9,0,0,0,4.838-.452,15.614,15.614,0,0,0,2.6-.741c1.864-.727,2.525-1.535,2.525-2v-3.39a10.706,10.706,0,0,1-1.692.825A23.49,23.49,0,0,1,16,18.74a23.49,23.49,0,0,1-8.271-1.348,10.829,10.829,0,0,1-1.692-.825V19.96C6.037,20.426,6.7,21.231,8.562,21.961Z"
+                    style="fill: rgb(211, 20, 20)"
+                  />
+                  <path
+                    d="M16,30c5.5,0,9.963-1.744,9.963-3.894V23.269a10.5,10.5,0,0,1-1.535.762l-.157.063A23.487,23.487,0,0,1,16,25.445a23.422,23.422,0,0,1-8.271-1.351c-.054-.02-.106-.043-.157-.063a10.5,10.5,0,0,1-1.535-.762v2.837C6.037,28.256,10.5,30,16,30Z"
+                    style="fill: rgb(211, 20, 20)"
+                  />
+                  <ellipse
+                    cx="16"
+                    cy="5.894"
+                    rx="9.963"
+                    ry="3.894"
+                    style="fill: rgb(211, 20, 20)"
+                  />
+                </svg>
+                <span> SQL </span>
+              </div>
             </div>
+          </section>
+        </article>
 
-            <div class="flex service-title h3" >
-              <svg fill="rgb(211, 20, 20)" width="2.2em" height="2.2em" viewBox="0 0 32 32" version="1.1"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M15.821 23.185s0-10.361 0.344-10.36c0.266 0 0.612 13.365 0.612 13.365-0.476-0.056-0.956-2.199-0.956-3.005zM22.489 12.945c-0.919-4.016-2.932-7.469-5.708-10.134l-0.007-0.006c-0.338-0.516-0.647-1.108-0.895-1.732l-0.024-0.068c0.001 0.020 0.001 0.044 0.001 0.068 0 0.565-0.253 1.070-0.652 1.409l-0.003 0.002c-3.574 3.034-5.848 7.505-5.923 12.508l-0 0.013c-0.001 0.062-0.001 0.135-0.001 0.208 0 4.957 2.385 9.357 6.070 12.115l0.039 0.028 0.087 0.063q0.241 1.784 0.412 3.576h0.601c0.166-1.491 0.39-2.796 0.683-4.076l-0.046 0.239c0.396-0.275 0.742-0.56 1.065-0.869l-0.003 0.003c2.801-2.597 4.549-6.297 4.549-10.404 0-0.061-0-0.121-0.001-0.182l0 0.009c-0.003-0.981-0.092-1.94-0.261-2.871l0.015 0.099z">
-                </path>
-              </svg>
-              <span> MongoDB </span>
-            </div>
-
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-vercel" style="color: rgb(211, 20, 20);font-size: 2em;"></ion-icon>
-              <span> Vercel </span>
-            </div>
-            <div class="flex  service-title h3" >
-              <svg fill="rgb(211, 20, 20)" width="2.2em" height="2.2em" viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M29.86 8c-0.224-0.385-0.532-0.724-0.871-0.921l-11.755-6.787c-0.677-0.391-1.787-0.391-2.464 0l-11.755 6.787c-0.677 0.391-1.235 1.353-1.235 2.135v13.573c0 0.391 0.14 0.828 0.364 1.213 0.219 0.385 0.532 0.724 0.871 0.917l11.749 6.791c0.683 0.391 1.787 0.391 2.464 0l11.755-6.791c0.339-0.193 0.647-0.532 0.871-0.917s0.359-0.823 0.359-1.213v-13.573c0.005-0.391-0.135-0.828-0.353-1.213zM16 25.479c-5.229 0-9.479-4.249-9.479-9.479s4.249-9.479 9.479-9.479c3.385 0.005 6.511 1.812 8.208 4.733l-4.104 2.376c-0.849-1.464-2.411-2.365-4.104-2.371-2.615 0-4.74 2.125-4.74 4.74s2.125 4.74 4.74 4.74c1.693-0.005 3.255-0.907 4.104-2.371l4.104 2.376c-1.697 2.921-4.823 4.728-8.208 4.733zM25.479 16.527h-1.052v1.052h-1.057v-1.052h-1.052v-1.053h1.052v-1.052h1.057v1.052h1.052zM29.427 16.527h-1.052v1.052h-1.052v-1.052h-1.052v-1.053h1.052v-1.052h1.052v1.052h1.052z" />
-              </svg>
-              <span> C++ </span>
-            </div>
-
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-javascript" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> JavaScript </span>
-            </div>
-            <div class="flex  service-title h3" >
-              <svg width="2.2em" height="2.2em" viewBox="0 0 400 400" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 200V0h400v400H0" fill="rgb(211, 20, 20)" />
-                <path
-                  d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4l-.3-.1zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1l-.2.2z"
-                  fill="rgb(35, 35, 35)" />
-              </svg>
-              <span style="margin-left: 0.4em;"> TypeScript </span>
-            </div>
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-html5" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> HTML </span>
-            </div>
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-css3" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> CSS </span>
-            </div>
-
-
-
-            <div class="flex  service-title h3" >
-              <svg width="2.2em" height="2.2em" viewBox="0 0 24 24" fill="rgb(211, 20, 20)"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M4.98488 2C3.61546 2 2.60217 3.19858 2.64753 4.49844C2.69105 5.74725 2.63451 7.36461 2.22732 8.68359C1.81892 10.0064 1.1282 10.8444 0 10.952V12.1666C1.1282 12.2742 1.81892 13.1122 2.22732 14.4351C2.63451 15.754 2.69105 17.3714 2.64753 18.6202C2.60217 19.9199 3.61546 21.1186 4.98508 21.1186H19.0169C20.3864 21.1186 21.3995 19.9201 21.3541 18.6202C21.3106 17.3714 21.3671 15.754 21.7743 14.4351C22.1829 13.1122 22.8718 12.2742 24 12.1666V10.952C22.8718 10.8444 22.1829 10.0064 21.7743 8.68359C21.3671 7.36481 21.3106 5.74725 21.3541 4.49844C21.3995 3.19878 20.3864 2 19.0169 2H4.98468H4.98488ZM16.2712 13.7687C16.2712 15.5586 14.9361 16.6441 12.7206 16.6441H8.94915C8.84127 16.6441 8.7378 16.6012 8.66152 16.5249C8.58523 16.4486 8.54237 16.3452 8.54237 16.2373V6.88136C8.54237 6.77347 8.58523 6.67001 8.66152 6.59372C8.7378 6.51743 8.84127 6.47458 8.94915 6.47458H12.6991C14.5464 6.47458 15.7588 7.47525 15.7588 9.01166C15.7588 10.09 14.9433 11.0555 13.9041 11.2245V11.2809C15.3187 11.4361 16.2712 12.4156 16.2712 13.7687ZM12.3094 7.76407H10.1589V10.8015H11.9701C13.3702 10.8015 14.1423 10.2377 14.1423 9.2299C14.1423 8.28556 13.4784 7.76407 12.3094 7.76407ZM10.1589 12.0068V15.3542H12.3885C13.8462 15.3542 14.6184 14.7692 14.6184 13.6699C14.6184 12.5704 13.8246 12.0066 12.2947 12.0066H10.1589V12.0068Z"
-                  fill="rgb(211, 20, 20)" />
-              </svg>
-              <span> Bootstrap </span>
-            </div>
-
-            <div class="flex  service-title h3" >
-              <svg fill="rgb(211, 20, 20)" width="2.2em" height="2.2em" viewBox="0 0 24 24" role="img"
-                xmlns="http://www.w3.org/2000/svg">
-                <title>Tailwind CSS icon</title>
-                <path
-                  d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
-              </svg>
-              <span> Tailwincss </span>
-            </div>
-
-            <div class="flex  service-title h3" >
-              <ion-icon name="logo-github" style="color: rgb(211, 20, 20);font-size: 2.2em;"></ion-icon>
-              <span> Github </span>
-            </div>
-
-
-            <div class="flex  service-title h3" >
-              <svg width="2.2em" height="2.2em" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <title>file_type_sql</title>
-                <path
-                  d="M8.562,15.256A21.159,21.159,0,0,0,16,16.449a21.159,21.159,0,0,0,7.438-1.194c1.864-.727,2.525-1.535,2.525-2V9.7a10.357,10.357,0,0,1-2.084,1.076A22.293,22.293,0,0,1,16,12.078a22.36,22.36,0,0,1-7.879-1.3A10.28,10.28,0,0,1,6.037,9.7v3.55C6.037,13.724,6.7,14.528,8.562,15.256Z"
-                  style="fill:rgb(211,20,20)" />
-                <path
-                  d="M8.562,21.961a15.611,15.611,0,0,0,2.6.741A24.9,24.9,0,0,0,16,23.155a24.9,24.9,0,0,0,4.838-.452,15.614,15.614,0,0,0,2.6-.741c1.864-.727,2.525-1.535,2.525-2v-3.39a10.706,10.706,0,0,1-1.692.825A23.49,23.49,0,0,1,16,18.74a23.49,23.49,0,0,1-8.271-1.348,10.829,10.829,0,0,1-1.692-.825V19.96C6.037,20.426,6.7,21.231,8.562,21.961Z"
-                  style="fill:rgb(211,20,20)" />
-                <path
-                  d="M16,30c5.5,0,9.963-1.744,9.963-3.894V23.269a10.5,10.5,0,0,1-1.535.762l-.157.063A23.487,23.487,0,0,1,16,25.445a23.422,23.422,0,0,1-8.271-1.351c-.054-.02-.106-.043-.157-.063a10.5,10.5,0,0,1-1.535-.762v2.837C6.037,28.256,10.5,30,16,30Z"
-                  style="fill:rgb(211,20,20)" />
-                <ellipse cx="16" cy="5.894" rx="9.963" ry="3.894" style="fill:rgb(211,20,20)" />
-              </svg>
-              <span> SQL </span>
-            </div>
-
-          </div>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="projects">
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
+          <section class="projects">
+            <ul class="project-list">
+              <li class="project-item active">
+                <a href="https://keep-notes-ui.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-        <section class="projects">
+                    <img
+                      src="./images/project-1.png"
+                      alt="KeepNotes"
+                      loading="lazy"
+                    />
+                  </figure>
 
-          <ul class="project-list">
+                  <h3 class="project-title">KeepNotes</h3>
 
-            <li class="project-item  active">
-              <a href="https://keep-notes-ui.vercel.app/" target="_blank">
+                  <p class="project-category">MERN Application</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="project-item active">
+                <a href="https://viteauth.vercel.app" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./images/project-1.png" alt="KeepNotes" loading="lazy" >
-                </figure>
+                    <img
+                      src="./images/project-5.png"
+                      alt="ViteAuth"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">KeepNotes</h3>
+                  <h3 class="project-title">Vite-Auth</h3>
 
-                <p class="project-category">MERN Application</p>
+                  <p class="project-category">
+                    An authentication system using Vitejs and Appwrite SDK
+                  </p>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li class="project-item active">
+                <a href="https://tasks-zeta-two.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active">
-              <a href="https://viteauth.vercel.app" target="_blank">
+                    <img
+                      src="./images/project-4.png"
+                      alt="Tasks"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Tasks</h3>
 
-                  <img src="./images/project-5.png" alt="ViteAuth" loading="lazy" >
-                </figure>
+                  <p class="project-category">Vitejs Application</p>
+                </a>
+              </li>
 
-                <h3 class="project-title">Vite-Auth</h3>
+              <li class="project-item active">
+                <a
+                  href="https://zzzzshawn.github.io/Text-Utility/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">An authentication system using Vitejs and Appwrite SDK</p>
+                    <img
+                      src="./images/project-2.png"
+                      alt="TextUtility"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">TextUtil</h3>
 
+                  <p class="project-category">React app</p>
+                </a>
+              </li>
 
-            <li class="project-item  active">
-              <a href="https://tasks-zeta-two.vercel.app/" target="_blank">
+              <li class="project-item active">
+                <a href="https://igclone-wine.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="./images/project-3.png"
+                      alt="TextUtility"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="./images/project-4.png" alt="Tasks" loading="lazy">
-                </figure>
+                  <h3 class="project-title">Instagram CLone</h3>
 
-                <h3 class="project-title">Tasks</h3>
+                  <p class="project-category">HTML CSS</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                <p class="project-category">Vitejs Application</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active">
-              <a href="https://zzzzshawn.github.io/Text-Utility/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./images/project-2.png" alt="TextUtility" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">TextUtil</h3>
-
-                <p class="project-category">React app</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active">
-              <a href="https://igclone-wine.vercel.app/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./images/project-3.png" alt="TextUtility" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Instagram CLone</h3>
-
-                <p class="project-category">HTML CSS</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="contact-form">
+            <form
+              action="mailto:shawndsilva.mail@gmail.com"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
 
-          <h3 class="h3 form-title">Contact Form</h3>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
 
-          <form action="mailto:shawndsilva.mail@gmail.com" class="form" data-form>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./script.js"></script>
+    <script src="./script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
